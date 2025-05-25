@@ -192,9 +192,9 @@ https://jeju-trip-eosin.vercel.app/
 
 ## 📚 참고 URL
 - 화면 설계 : 
-[떠나봅서 Figma](https://www.figma.com/design/kAu9tQ6BfRroEhUgpywdxf/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_C%ED%8C%80?node-id=1-3154&t=4Vdz8y0os6hhGOOl-1)
+[떠나봅서 Figma](https://www.figma.com/design/4qzA0YnGtdHQzgfF2jcKhO/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_C%ED%8C%80---view?node-id=1-3153&t=ZuAkLG13SHbDVYt7-1)
 - 발표 자료 : 
-[떠나봅서 Canva](https://www.canva.com/design/DAGf-bGIHP0/ht3xe4QL4MPhP579NkMXyg/edit)
+[떠나봅서 Canva](https://www.canva.com/design/DAGkzKa7pxo/1rKvlgXUlB83CsS5mzNg1A/view?utm_content=DAGkzKa7pxo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h25f34eab01)
 - 인터페이스 기능 보고서
 [떠나봅서 Interface Report](https://docs.google.com/document/d/1fuuSLIb9sE17m5Fwlu_JPVSAwZETH2YS544n9UcqkOM/edit?usp=sharing)
 - 프로젝트 완료 보고서
