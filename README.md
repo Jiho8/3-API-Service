@@ -190,3 +190,56 @@ https://jeju-trip-eosin.vercel.app/
 | **Vercel** | **서버리스 플랫폼** |![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)|
 | **Figma** | **디자인 & UI/UX**|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
 
+<hr>
+
+# 천지호의 개발 상세
+
+## 📑 요약
+
+### 담당 업무
+- 개발 및 배포
+
+### 담당 컴포넌트
+- MyMenu.jsx: '마이페이지' 내 큰 메뉴 (체크리스트, 좋아요 등)
+- CmtItem.jsx: '나의활동' 페이지 내 사용자가 작성한 댓글 리스트 아이템
+- CheckItem.jsx: '체크리스트' 상세페이지 내 체크리스트 아이템 (MUI 플러그인 사용)
+- AddCheckItem.jsx: '체크리스트' 상세페이지 내 추가용 input 아이템
+- Login (KakaoLogin.jsx, NaverLogin.jsx, GoogleLogin.jsx): 로그인 버튼, 클릭 시 각 소셜 플랫폼 로그인 요청
+
+### 담당 페이지 목록
+- [로그인](https://jeju-trip-eosin.vercel.app/login)
+- [마이페이지 (자주묻는질문, 좋아요 제외)](https://jeju-trip-eosin.vercel.app/my)
+
+## 🧩 공통 컴포넌트
+
+1. **Popup** (Btn1Popup.jsx, Btn2Popup.jsx, GetTripPopup.jsx)  
+   - 로그인, 로그아웃, 삭제 등 사용자 안내용 팝업  
+   - 전달받은 타입에 따라 내용 표시 및 'onConfirm'으로 버튼 동작 관리
+
+2. **Tab** (TabItem.jsx, TabMenu.jsx, TabPage.jsx)
+   - TabMenu: 탭 선택 상태 표시 및 선택된 탭 인덱스 상위로 전달
+   - TabPage: 타입별 탭 제목 및 메인 타이틀 설정  
+
+3. **List** (ListItem.jsx, ListPage.jsx)  
+   - ListPage: 데이터를 연도별 그룹화 및 최신순 정렬, 삭제 팝업 관리
+
+## 💥 이슈 및 해결
+
+### 1. Splash.jsx 렌더링 순서 문제  
+- 메인 페이지가 먼저 보이고 Splash가 나중에 나타나는 현상  
+- **해결**: App.js 렌더링 전에 조건문 추가, 최초 접속 시 Splash로 이동하고 방문 기록 저장, `replace` 사용해 히스토리 남기지 않음
+
+### 2. Login.jsx - 카카오 로그인 오류  
+- 잘못된 파라미터 이름 사용으로 400, 401 에러 발생  
+- **해결**: 카카오 요구 파라미터 명칭(grant_type, client_id 등)으로 수정
+
+- ‘provider’ 값 세션 저장 오류  
+- **해결**: 로그인 시도 전 세션 저장 제거, 리다이렉트 후 사용자 정보 저장 시 provider 함께 저장
+
+### 3. Logout.jsx - 로그아웃 팝업 및 이동 문제  
+- 로그아웃 함수 비동기 처리로 팝업 및 페이지 이동 흐름 문제  
+- **해결**: 팝업 띄우는 코드를 로그아웃 함수 내부 콜백으로 이동
+
+### 4. ListPage.jsx - 스와이프된 아이템 복귀 문제  
+- 삭제 취소 후에도 스와이프된 아이템이 제자리로 돌아가지 않음  
+- **해결**: SwipeAction에 resetSwipe props 추가, 상태 초기화하여 아이템 원위치 복귀
