@@ -190,6 +190,16 @@ https://jeju-trip-eosin.vercel.app/
 | **Vercel** | **서버리스 플랫폼** |![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)|
 | **Figma** | **디자인 & UI/UX**|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
 
+## 📚 참고 URL
+- 화면 설계 : 
+[떠나봅서 Figma](https://www.figma.com/design/kAu9tQ6BfRroEhUgpywdxf/2%EC%B0%A8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_C%ED%8C%80?node-id=1-3154&t=4Vdz8y0os6hhGOOl-1)
+- 발표 자료 : 
+[떠나봅서 Canva](https://www.canva.com/design/DAGf-bGIHP0/ht3xe4QL4MPhP579NkMXyg/edit)
+- 인터페이스 기능 보고서
+[떠나봅서 Interface Report](https://docs.google.com/document/d/1fuuSLIb9sE17m5Fwlu_JPVSAwZETH2YS544n9UcqkOM/edit?usp=sharing)
+- 프로젝트 완료 보고서
+[떠나봅서 Final report](https://docs.google.com/document/d/1aJEeiRj6KTTmHOR-td0581_aCYqC4mwfAMuKh7tZVO4/edit?usp=sharing)
+
 <hr>
 
 # 천지호의 개발 상세
