@@ -1,5 +1,6 @@
 
-![2ndProjectMockup](https://github.com/user-attachments/assets/de838a7c-acea-45ba-abd3-17ec3a848838)
+<!-- ![2ndProjectMockup](https://github.com/user-attachments/assets/de838a7c-acea-45ba-abd3-17ec3a848838) -->
+![2ndProjectMockup_2](https://github.com/user-attachments/assets/146c115c-d1fb-45ef-a5c0-fa77351f8786)
 
 # <p><img src="https://github.com/user-attachments/assets/62fac1aa-5182-40b6-9ca3-6505f3f24fa7" alt="Image" style="vertical-align: middle;" /> 떠나봅서</p> 
 제주 여행을 계획하고 다양한 장소를 탐색할 수 있는 SPA 웹사이트, <b>"떠나봅서"</b> 입니다.
