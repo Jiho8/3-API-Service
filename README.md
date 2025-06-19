@@ -200,7 +200,7 @@ https://jeju-trip-eosin.vercel.app/
 - 인터페이스 기능 보고서
 [떠나봅서 Interface Report](https://docs.google.com/document/d/1fuuSLIb9sE17m5Fwlu_JPVSAwZETH2YS544n9UcqkOM/edit?usp=sharing)
 - 프로젝트 완료 보고서
-[떠나봅서 Final report](https://docs.google.com/document/d/1aJEeiRj6KTTmHOR-td0581_aCYqC4mwfAMuKh7tZVO4/edit?usp=sharing)
+[떠나봅서 Final report](https://drive.google.com/file/d/1p7JoSa3JEFsxeH1r3AOjASrCRa02txnF/view?usp=sharing)
 
 <hr>
 
