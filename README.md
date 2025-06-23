@@ -1,6 +1,7 @@
 
 <!-- ![2ndProjectMockup](https://github.com/user-attachments/assets/de838a7c-acea-45ba-abd3-17ec3a848838) -->
-![2ndProjectMockup_2](https://github.com/user-attachments/assets/146c115c-d1fb-45ef-a5c0-fa77351f8786)
+<!-- ![2ndProjectMockup_2](https://github.com/user-attachments/assets/146c115c-d1fb-45ef-a5c0-fa77351f8786) -->
+![mockup_ttunabobseo](https://github.com/user-attachments/assets/4371d04e-e9ce-4651-a8b5-a2027865b680)
 
 # <p><img src="https://github.com/user-attachments/assets/62fac1aa-5182-40b6-9ca3-6505f3f24fa7" alt="Image" style="vertical-align: middle;" /> 떠나봅서</p> 
 제주 여행을 계획하고 다양한 장소를 탐색할 수 있는 SPA 웹사이트, <b>"떠나봅서"</b> 입니다.
@@ -11,7 +12,9 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 다양한 환경에서도 편리하게 이용할 수 있도록 개발했습니다.
 
 ## 🔗 배포 URL
-https://jeju-trip-eosin.vercel.app/
+* 프론트: https://jeju-trip-eosin.vercel.app
+* 서버: https://jeju-server.vercel.app
+* 서버 Github: https://github.com/Jiho8/Jeju-server
 
 ## 📑 프로젝트 요약
 
