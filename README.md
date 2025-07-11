@@ -42,7 +42,7 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 ### 4. 주요 기술 스택
 
 * Front-End : React, Zustand, React Router
-* Back-End : Node.js, Express
+* Back-End : Node.js, Express, MongoDB
 * API 활용 : 비짓제주 Open API, 기상청 Open API
 
 ## 📆 기간 및 인원
@@ -155,10 +155,10 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 | 사용기술 | 설명 |Badge |
 | :---:| :---: | :---: |
 | **React** | **프론트엔드 프레임워크 (SPA 구축)** |![react](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white)|
-|**React Router Dom** | **페이지 라우팅 관리** |![reactrouter](https://img.shields.io/badge/ReactRouter-CA4245?style=flat-square&logo=reactrouter&logoColor=white)|
+| **React Router Dom** | **페이지 라우팅 관리** |![reactrouter](https://img.shields.io/badge/ReactRouter-CA4245?style=flat-square&logo=reactrouter&logoColor=white)|
 | **React Hook Form** | **폼 데이터 관리** |![reacthookform](https://img.shields.io/badge/ReactHookForm-F24E1E?style=flat-square&logo=reacthookform&logoColor=white)|
 | **Axios** | **HTTP 클라이언트 라이브러리** |![axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)|
-|**Zustand** | **상태 관리**|![Zustand](https://img.shields.io/badge/Zustand-181717?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAv0lEQVQ4jeVUMQ7DIAx0KmZGlJGJB+RBjLyC1/ADVr7AC8gzCBJs7lCpUhqw0qpDqp7kxSefDWd5QkQYwVqLQogh/4oYIwAiDiOlhO/AOYe30+1P4g8FGUUqpSaC7q4Hs9ai1rorFkJAKeUuX0qBZVmGjZgQApRSXVJKeeByzsTQv2DK911urXX/hXMOpZQDt20bcM67NbVWmKjj8AnIJ6/rivDYt2fknMkJrm/K9QXJ4+C9h3med7laKxhjhjV3vjqJYwKihcAAAAAASUVORK5CYII=&logoColor=white)|
+| **Zustand** | **상태 관리**|![Zustand](https://img.shields.io/badge/Zustand-181717?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAv0lEQVQ4jeVUMQ7DIAx0KmZGlJGJB+RBjLyC1/ADVr7AC8gzCBJs7lCpUhqw0qpDqp7kxSefDWd5QkQYwVqLQogh/4oYIwAiDiOlhO/AOYe30+1P4g8FGUUqpSaC7q4Hs9ai1rorFkJAKeUuX0qBZVmGjZgQApRSXVJKeeByzsTQv2DK911urXX/hXMOpZQDt20bcM67NbVWmKjj8AnIJ6/rivDYt2fknMkJrm/K9QXJ4+C9h3med7laKxhjhjV3vjqJYwKihcAAAAAASUVORK5CYII=&logoColor=white)|
 
 ### 2. UI/UX & 날짜/시간 라이브러리
 
@@ -177,11 +177,11 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 
 | 사용기술 | 설명 | Badge |
 | :---:| :---: | :---: |
-| **Node.js** | **JavaScript 런타임 환경** |![nodedotjs](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)|
-| **Express** | **Node.js 기반 서버 프레임워크** |![express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)|
+| **Node.js** | **JavaScript 런타임 환경 / Express 서버의 기반** |![nodedotjs](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)|
+| **Express** | **Node.js 기반 웹 프레임워크** |![express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)|
 | **MongoDB** | **NoSQL 데이터베이스** |![mongodb](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)|
 | **multer** | **파일 업로드 처리** |![npm](https://img.shields.io/badge/multer-CB3837?style=flat-square&logo=npm&logoColor=white)|
-| **JSON** | **데이터 형식 / API 응답 처리, <br> MongoDB 데이터 저장 형식**  |![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=JSON&logoColor=white)|
+| **JSON** | **데이터 형식 / API 응답 처리, <br> MongoDB 데이터 저장 형식** |![JSON](https://img.shields.io/badge/JSON-000000?style=flat-square&logo=JSON&logoColor=white)|
 | **Nodemon** | **개발 중 서버 자동 재시작 도구** |![nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=flat-square&logo=nodemon&logoColor=white)|
 | **Axios** | **서버에서 API 요청을 처리** |![axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)|
 
@@ -190,7 +190,7 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 |사용기술 | 설명 | Badge | 
 | :---:| :---: | :---: |
 | **Visual Studio Code (VS Code)** | **코드 편집기( 에디터 )** |![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0LjAwMyAyTDEyIDEzLjMwM0w0Ljg0IDhMMiAxMEw4Ljc3MiAxNkwyIDIyTDQuODQgMjRMMTIgMTguNzAyTDI0LjAwMyAzMEwzMCAyNy4wODdWNC45MTNMMjQuMDAzIDJaTTI0IDkuNDM0VjIyLjU2NkwxNS4yODkgMTZMMjQgOS40MzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K&logoColor=white) |
-|**GitHub** | **버전 관리** |![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)| 
+| **GitHub** | **버전 관리** |![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white)| 
 | **Postman** | **API 테스트** |![postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)|
 | **Vercel** | **서버리스 플랫폼** |![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)|
 | **Figma** | **디자인 & UI/UX**|![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white) |
@@ -246,10 +246,10 @@ React와 비짓제주, 기상청 오픈 API를 활용하여 <br>
 
 ### 2. Login.jsx
 1. 카카오 토큰 요청 시 잘못된 파라미터 사용으로 인한 로그인 도중 400, 401 에러  
-   ⇒ **해결방법**: 파라미터 이름은 개인이 설정하는 것이 아닌 카카오가 요구하는 key 이름 그대로 사용해야 하므로 수정(예: grant_type, client_id 등).
+   - **해결**: 파라미터 이름은 개인이 설정하는 것이 아닌 카카오가 요구하는 key 이름 그대로 사용해야 하므로 수정(예: grant_type, client_id 등).
 
 2. 소셜 로그인 정보를 저장하는 ‘provider’값이 제대로 저장되지 않아 로그아웃 방식에 혼란  
-   ⇒ **해결방법**: 세션에 저장하는 코드를 KakaoLogin.jsx와 같은 인가 코드 요청 컴포넌트에 작성하여 위 컴포넌트들이 랜더링 될 때마다 실행. 하지만 실제 로그인이 이루어지는 건 버튼 클릭 후 페이지가 redirect 페이지로 바뀐 이후이기 때문에 이 코드는 로그인 시도 전에만 실행되고, 리다이렉트 되면 새로고침처럼 작동하여 세션이 초기화된 상태로 다시 시작되어 provider가 저장되지 않은 채 로그인. 따라서 로그인이 완료된 시점인 리다이렉트 페이지에서 사용자 정보를 저장할 때 provider를 함께 저장하는 방식으로 변경.
+   - **해결**: 세션에 저장하는 코드를 KakaoLogin.jsx와 같은 인가 코드 요청 컴포넌트에 작성하여 위 컴포넌트들이 랜더링 될 때마다 실행. 하지만 실제 로그인이 이루어지는 건 버튼 클릭 후 페이지가 redirect 페이지로 바뀐 이후이기 때문에 이 코드는 로그인 시도 전에만 실행되고, 리다이렉트 되면 새로고침처럼 작동하여 세션이 초기화된 상태로 다시 시작되어 provider가 저장되지 않은 채 로그인. 따라서 로그인이 완료된 시점인 리다이렉트 페이지에서 사용자 정보를 저장할 때 provider를 함께 저장하는 방식으로 변경.
 
 ### 3. Logout.jsx - 로그아웃 팝업 및 이동 문제  
 - 로그아웃 함수 비동기 처리로 팝업 및 페이지 이동 흐름 문제  
